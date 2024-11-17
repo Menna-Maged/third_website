@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rehlty</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/all.css" />
+</head>
+<body>
+   <!-- /////////////////////////////////////////////////Navbar////////////////////////////////////////////////////////////// -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="#">  <img src="./images/4149924.svg" alt="Logo" style="width:40px;" class="rounded-pill"> <span class="Rehlty">Rehlty</span></a>
+      <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars i1" style="color: #ffffff;"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Trips
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">FAQs</a></li>
+              <li><a class="dropdown-item" href="#">Rahlty Money</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Call Us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true">Self Help</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary me-1" type="submit">Search</button>
+
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Login</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- //////////////////////////////////////////////////carousel///////////////////////////////////////////////////////////////////// -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="icons me-2 me-lg-3">
+          <div class="link"><a href="#" class="a11"><i class="fab fa-facebook-f i11" style="color: #ffffff;"></i></a></div>
+          <div class="link"><a href="#" class="a11"><i class="fab fa-twitter i11" style="color: #ffffff;"></i></a></div>
+          <div class="link"><a href="#" class="a11"><i class="fab fa-youtube i11" style="color: #ffffff;"></i></a></div>
+          <div class="link"><a href="#" class="a11"><i class="fab fa-linkedin-in i11" style="color: #ffffff;"></i></a></div>
+          <div class="link"><a href="#" class="a11"><i class="fab fa-instagram i11" style="color: #ffffff;"></i></a></div>
+        </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./images/kkk.jpg" alt="Los Angeles" class="pic d-block w-100">
+            <div class="carousel-caption mx-auto">
+              <h3>Costa Rica</h3>
+              <p>We had such a great time in LA!</p>
+              <button class="b3 px-4 py-1 ">Visit Us</button>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <img src="./images/vacation.jpg" alt="Los Angeles" class="pic d-block w-100">
+            <div class="carousel-caption mx-auto">
+              <h3>France</h3>
+              <p>We had such a great time in LA!</p>
+              <button class="b3 px-4 py-1 ">Visit Us</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/lon.jpg" alt="Los Angeles" class="pic d-block w-100">
+            <div class="carousel-caption mx-auto">
+              <h3>London</h3>
+              <p>We had such a great time in LA!</p>
+              <button class="b3 px-4 py-1 ">Visit Us</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pppp.jpg" alt="Los Angeles" class="pic d-block w-100">
+            <div class="carousel-caption mx-auto">
+              <h3>Egypt</h3>
+              <p>We had such a great time in LA!</p>
+              <button class="b3 px-4 py-1 ">Visit Us</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+<!-- /////////////////////////////////////////////////////sec1///////////////////////////////////////////////////////////////////////// -->
+      <div class="coatainer"> 
+          <div class="div1 w-100"> 
+            <div class="t_gradient1"> <h2 class="t1 p-3 container text-uppercase">Welcome</h2></div>
+            <p class="p2 container">Please be aware that the local Egyptian banks have imposed a restriction on the use of local debit and credit cards for international purchases. Kindly use an international card if possible. We regret the inconvenience caused.</p>
+            <div class="m-2 ms-lg-5 "><button type="button" class="btn btn-light ms-lg-5 ms-0 mb-3">Learn more</button></div>
+      </div>
+      <hr>
+<!-- ///////////////////////////////////////////////////sec2/////////////////////////////////////////////////////////////////////// -->
+      <div class="t2"> <h2 class="sec2 text-light p-5">Discover the real value of travel</h2></div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <b>Flights To Top Cities from Egypt</b>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong class="topic">This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <b>Top International Destinations</b>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong class="topic">This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <b>Flights To Top Countries</b>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong class="topic">This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- ////////////////////////////////////////////////sec3/////////////////////////////////////////////////////////////////////// -->
+      <div class="t3 rounded-4"> <h2 class="sec3 text-light p-3 text-uppercase">Flights</h2></div>
+      <div class="div3 h-100">
+      <h2 class="title3 p-4">Determine <b class="bold">Your Distenation  <i class="fas fa-signature" style="color: #38507a;"></i> </b></h2> 
+     <div class="row ">
+      <div class="origin col-sm-12 col-lg-5">
+        <!-- <label for="exampleDataList" class="form-label ms-3 fs-4 ">Origin</label> -->
+        <input class="form-control ms-4" list="datalistOptions" id="exampleDataList" placeholder="Origin">
+        <datalist id="datalistOptions">
+          <option value="San Francisco">
+          <option value="New York">
+          <option value="Seattle">
+          <option value="Los Angeles">
+          <option value="Chicago">
+        </datalist>
+      </div>
+      <div class="destination col-sm-12  col-lg-5">
+        <!-- <label for="exampleDataList" class="form-label fs-4 ">distenation</label> -->
+        <input class="form-control ms-4 " list="datalistOptions" id="exampleDataList" placeholder="destination">
+        <datalist id="datalistOptions">
+          <option value="San Francisco">
+          <option value="New York">
+          <option value="Seattle">
+          <option value="Los Angeles">
+          <option value="Chicago">
+        </datalist>
+      </div>
+     </div>
+      <div class="form-check mt-4 ms-4">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label fw-bold" for="flexRadioDefault1">
+          One-way
+        </label>
+      </div>
+      <div class="form-check mt-4 ms-5 me-5">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label fw-bold" for="flexRadioDefault2">
+          Round-trip
+        </label>
+      </div>
+      <div class="form-check3 mt-4 ms-5">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+        <label class="form-check-label fw-bold" for="flexRadioDefault2">
+          Multi-city
+        </label>
+      </div>
+      <hr>
+      <div class="mb-3 container-fluid">
+        <label for="exampleFormControlTextarea1" class="form-label ms-4 fs-4">Notes</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btns mb-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">Search</button>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Flights</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Enjoy your trip even more Explore the additional services we offer to make your journey even more memorable.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+   <!-- //////////////////////////////////////////////sec4////////////////////////////////////////////////////////////////////////////////////// -->
+     <div class="container4"><div class="div4"></div></div>   
+     <!-- ////////////////////////////////////////sec5//////////////////////////////////////////////////////////////////////////////////////// -->
+     <div class="t3 rounded-4"> <h2 class="sec3 text-light p-3 text-uppercase">Popular destination</h2></div>
+     <div class="features5">
+      <div class="container text-center ">
+        <div class="row row1">
+          <div class=" col-10 container col-sm-12 col-md-6 col-lg-4 mt-5">
+            <div class="col1 rounded-5">
+              <div class="overlay"></div>
+              <div class="content w-100 h-100 position-absolute "> 
+                <h2 class="t5 text-light">Dubai</h2>
+                <p class="p5 mt-2 text-light">From</p>
+                <p class="p5 mt-2 text-light fw-bold">SAR 239.00*</p>
+                <p class="p5 text-light">One Way / Economy</p>
+                <button type="button" class="btn rounded-top-4 btn5 mt-3">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 container col-sm-12 col-md-6 col-lg-4 mt-5">
+            <div class="col2 rounded-5">
+              <div class="overlay"></div>
+              <div class="content w-100 position-absolute "> 
+                <h2 class="t5 text-light">AlUla</h2>
+                <p class="p5 mt-2 text-light">From</p>
+                <p class="p5 mt-2 text-light fw-bold">SAR 239.00*</p>
+                <p class="p5 text-light">One Way / Economy</p>
+                <button type="button" class="btn rounded-top-4 btn5 mt-3">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 container col-sm-12 col-md-6 col-lg-4 mt-5">
+            <div class="col3 rounded-5">
+              <div class="overlay"></div>
+              <div class="content w-100 position-absolute "> 
+                <h2 class="t5 text-light">Maldives</h2>
+                <p class="p5 mt-2 text-light">From</p>
+                <p class="p5 mt-2 text-light fw-bold">SAR 239.00*</p>
+                <p class="p5 text-light">One Way / Economy</p>
+                <button type="button" class="btn rounded-top-4 btn5 mt-3">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row2">
+          <div class="col-10 container col-sm-12 col-md-6 col-lg-4 mt-5">
+            <div class="col4 rounded-5">
+              <div class="overlay"></div>
+              <div class="content w-100 position-absolute "> 
+                <h2 class="t5 text-light">London</h2>
+                <p class="p5 mt-2 text-light">From</p>
+                <p class="p5 mt-2 text-light fw-bold">SAR 239.00*</p>
+                <p class="p5 text-light">One Way / Economy</p>
+                <button type="button" class="btn rounded-top-4 btn5 mt-3">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 container col-sm-12 col-md-6 col-lg-4 mt-5">
+            <div class="col5 rounded-5">
+              <div class="overlay"></div>
+              <div class="content w-100 position-absolute "> 
+                <h2 class="t5 text-light">China</h2>
+                <p class="p5 mt-2 text-light">From</p>
+                <p class="p5 mt-2 text-light fw-bold">SAR 239.00*</p>
+                <p class="p5 text-light">One Way / Economy</p>
+                <button type="button" class="btn rounded-top-4 btn5 mt-3">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 container col-sm-12 col-md-6 col-lg-4 mt-5">
+            <div class="col6 rounded-5">
+              <div class="overlay"></div>
+              <div class="content w-100  position-absolute "> 
+                <h2 class="t5 text-light">Paris</h2>
+                <p class="p5 mt-2 text-light">From</p>
+                <p class="p5 mt-2 text-light fw-bold">SAR 239.00*</p>
+                <p class="p5 text-light">One Way / Economy</p>
+                <button type="button" class="btn rounded-top-4 btn5 mt-3">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row3 justify-content-evenly mb-5">
+          <div class="col-10 container col-sm-12 col-md-6 col-lg-4 mt-5">
+            <div class="col7 rounded-5">
+              <div class="overlay"></div>
+              <div class="content w-100 h-100 position-absolute "> 
+                <h2 class="t5 text-light">Budapest</h2>
+                <p class="p5 mt-2 text-light">From</p>
+                <p class="p5 mt-2 text-light fw-bold">SAR 239.00*</p>
+                <p class="p5 text-light">One Way / Economy</p>
+                <button type="button" class="btn rounded-top-4 btn5 mt-3">Book Now</button>
+              </div>
+            </div>   
+          </div>
+          <div class="col-10 container col-sm-12 col-md-6 col-lg-4 mt-5">
+            <div class="col8 rounded-5">
+              <div class="overlay"></div>
+              <div class="content w-100  position-absolute "> 
+                <h2 class="t5 text-light">Barcelona</h2>
+                <p class="p5 mt-2 text-light">From</p>
+                <p class="p5 mt-2 text-light fw-bold">SAR 239.00*</p>
+                <p class="p5 text-light">One Way / Economy</p>
+                <button type="button" class="btn rounded-top-4 btn5 mt-3">Book Now</button>
+              </div>
+            </div>         
+          </div>        
+        </div>     
+      </div>
+    </div>
+    <!-- //////////////////////////////////////////////sec6//////////////////////////////////////////////////////////////////////////////////////// -->
+    <div class="container6"><div class="div6"></div></div>   
+    <!-- //////////////////////////////////////////////sec7//////////////////////////////////////////////////////////////////////////////////////// -->
+    <div class="t3 rounded-4"> <h2 class="sec3 text-light p-3 text-uppercase">Tanks For</h2></div>
+    <div class="features7">
+     <div class="container">
+       <div class="row row_thanks">
+         <div class="col-9 container-sm col-sm-12 col-md-6 col-lg-4 mt-5">
+           <div class="colA rounded-3">
+             <div class="overlay x"></div>
+             <div class="content2 ms-3 w-100 h-100 position-absolute "> 
+               <h2 class="t7 mt-3 text-light">All thanks and appreciation</h2>
+               <p class="p7 mt-2 text-light"> <i class="far fa-clock" style="color: #ffffff;"></i> November 8, 2024</p>
+               <div class="pic1"></div>
+               <p class="p7 mt-2 text-light">Eng Islam Mohammed</p>
+               <p class="p7 text-light">Instructor</p>
+             </div>
+           </div>
+         </div>
+         <div class="  col-9 container-sm col-sm-12 col-md-6 col-lg-4 mt-5">
+          <div class="colB rounded-3">
+            <div class="overlay x"></div>
+            <div class="content2 ms-3 w-100 h-100 position-absolute "> 
+              <h2 class="t7 mt-3 text-light">All thanks and appreciation</h2>
+              <p class="p7 mt-2 text-light"> <i class="far fa-clock" style="color: #ffffff;"></i> November 8, 2024</p>
+              <div class="pic2"></div>
+              <p class="p7 mt-2 text-light">Eng Rohit Anjali</p>
+              <p class="p7 text-light">Instructor</p>          
+            </div>
+          </div>
+        </div>
+        <div class="col-9 container-sm col-sm-12 col-md-6 col-lg-4 mt-5">
+          <div class="colC rounded-3">
+            <div class="overlay x"></div>
+            <div class="content2 ms-3 w-100 h-100 position-absolute "> 
+              <h2 class="t7 mt-3 text-light">All thanks and appreciation</h2>
+              <p class="p7 mt-2 text-light"> <i class="far fa-clock" style="color: #ffffff;"></i> November 8, 2024</p>
+              <div class="pic3"></div>
+              <p class="p7 mt-2 text-light">Eng Ahmed Elwakeel</p>
+              <p class="p7 text-light">Instructor</p>
+            </div>
+          </div>
+        </div>      
+      </div>   <!-- row_thanks -->
+    </div>   <!-- container -->
+  </div>   <!-- features -->
+    <!-- ///////////////////////////////////////////////sec8//////////////////////////////////////////////////////////////////////////////// -->
+    <div class="t_gradient2 text-center mt-5"> <h2 class="t8 pt-5 text-uppercase">world news</h2></div>
+    <div class="news">
+      <div class="container ">
+        <div class="row813 ms-sm-2">
+          <div class="new ms-4">
+            <h2 class="t8 pt-4">Podcast Title</h2>
+            <p class="p8">Fri, November 11th 2024</p>
+            <div class="line"></div>
+            <p class="p8 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quisquam id provident qui nisi aliquam iure consectetur quis quas dolor quam suscipit cumque laboriosam, voluptatibus numquam ratione error! Explicabo, a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quisquam id provident qui nisi aliquam iure consectetur quis quas dolor quam suscipit cumque laboriosam, voluptatibus numquam ratione error! Explicabo . </p>
+            <div class="space"></div>
+            <div class="d-grid gap-1 d-flex justify-content-sm-start btn8">
+              <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-podcast" style="color: #ffffff;"></i> Podcast</button>
+              <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-clock" style="color: #ffffff;"></i> 55 mins</button>
+              <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-play" style="color: #ffffff;"></i> play Episode</button>
+            </div>
+          </div>
+          <div class="photo1"></div>   
+          </div>
+          <div class="row824 ms-sm-2">
+            <div class="photo2"></div>
+            <div class="new ms-4">
+              <h2 class="t8 pt-4">Podcast Title</h2>
+              <p class="p8">Fri, November 11th 2024</p>
+              <div class="line"></div>
+              <p class="p8 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quisquam id provident qui nisi aliquam iure consectetur quis quas dolor quam suscipit cumque laboriosam, voluptatibus numquam ratione error! Explicabo, a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quisquam id provident qui nisi aliquam iure consectetur quis quas dolor quam suscipit cumque laboriosam, voluptatibus numquam ratione error! Explicabo . </p>
+              <div class="space"></div>
+              <div class="d-grid gap-1 d-flex justify-content-sm-start btn8">
+                <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-podcast" style="color: #ffffff;"></i> Podcast</button>
+                <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-clock" style="color: #ffffff;"></i> 55 mins</button>
+                <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-play" style="color: #ffffff;"></i> play Episode</button>
+              </div>
+            </div>           
+            </div>
+            <div class="row813 ms-sm-2">
+              <div class="new ms-4">
+                <h2 class="t8 pt-4">Podcast Title</h2>
+                <p class="p8">Fri, November 11th 2024</p>
+                <div class="line"></div>
+                <p class="p8 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quisquam id provident qui nisi aliquam iure consectetur quis quas dolor quam suscipit cumque laboriosam, voluptatibus numquam ratione error! Explicabo, a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quisquam id provident qui nisi aliquam iure consectetur quis quas dolor quam suscipit cumque laboriosam, voluptatibus numquam ratione error! Explicabo . </p>
+                <div class="space"></div>
+                <div class="d-grid gap-1 d-flex justify-content-sm-start btn8">
+                  <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-podcast" style="color: #ffffff;"></i> Podcast</button>
+                  <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-clock" style="color: #ffffff;"></i> 55 mins</button>
+                  <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-play" style="color: #ffffff;"></i> play Episode</button>
+                </div>
+              </div>
+              <div class="photo3"></div>
+              </div>
+              <div class="row824 ms-sm-2">
+                <div class="photo4"></div>
+                <div class="new ms-4">
+                  <h2 class="t8 pt-4">Podcast Title</h2>
+                  <p class="p8">Fri, November 11th 2024</p>
+                  <div class="line"></div>
+                  <p class="p8 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quisquam id provident qui nisi aliquam iure consectetur quis quas dolor quam suscipit cumque laboriosam, voluptatibus numquam ratione error! Explicabo, a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quisquam id provident qui nisi aliquam iure consectetur quis quas dolor quam suscipit cumque laboriosam, voluptatibus numquam ratione error! Explicabo . </p>
+                  <div class="space"></div>
+                  <div class="d-grid gap-1 d-flex justify-content-sm-start btn8">
+                    <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-podcast" style="color: #ffffff;"></i> Podcast</button>
+                    <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-clock" style="color: #ffffff;"></i> 55 mins</button>
+                    <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-play" style="color: #ffffff;"></i> play Episode</button>
+                  </div>
+                </div>
+                </div>
+        </div>       
+      </div>
+  <!-- ///////////////////////////////////////////////////sec9/////////////////////////////////////////////////////////////////////////////////// -->
+  <div class="why_photo">
+    <div class="container">
+      <h2 class="t99 mt-5 pt-5 gg container-sm"><b>Reasons to fly with us</b> </h2>
+      <p class="t99 container-sm">Get to where you want to go in style and enjoy an unrivalled travel experience at low-cost. From booking to landing - here's why you should choose flynas.</p>
+      <div class="row text-center">
+        <div class=" col-10 container col-sm-12 col-md-6 col-lg-3">
+          <div class="col11 rounded-5">  <div class="content9"> <i class="fas fa-concierge-bell i9" style="color: #ffffff;"></i>    <h5 class="t9 text-light"><b> Award-Winning Service</b></h5></div></div> 
+        </div>
+        <div class=" col-10 container col-sm-12 col-md-6 col-lg-3 ">
+          <div class="col22 rounded-5"> <div class="content9"><i class="fab fa-servicestack i9" style="color: #ffffff;"></i>    <h5 class="t9 text-light"><b>Super low fares</b></h5></div></div>
+        </div>
+        <div class=" col-10 container col-sm-12 col-md-6 col-lg-3">
+          <div class="col33 rounded-5"> <div class="content9"><i class="fas fa-brain  i9" style="color: #ffffff;"></i>    <h5 class="t9 text-light"><b>More Comfort and Space</b></h5></div></div>
+        </div>
+        <div class=" col-10 container col-sm-12 col-md-6 col-lg-3 ">
+          <div class="col44 rounded-5"> <div class="content9"><i class="fas fa-laugh-wink i9" style="color: #ffffff;"></i>     <h5 class="t9 text-light"><b>Earn Exclusive Rewards</b></h5></div></div>
+        </div>
+    </div>
+  </div>
+  </div>
+  <!-- /////////////////////////////////////////////////////sec10//////////////////////////////////////////////////////////////////////////////////// -->
+  <div class="t_gradient3 text-center mt-5 mb-5"> <h2 class="t8 pt-5 text-uppercase">Follow Us </h2></div>
+  <div class="link_photo">
+    <div class="container">
+      <div class="row text-center container-sm">
+        <div class="col-5 container col-sm-12 col-md-6 col-lg-2 cir mb-3 rounded-5 py-2">
+          <h4 class="t10">Subscribe</h4>
+          <div class="col111 container-sm"></div>
+          <a class="a10" href="#"><h5 class="t10">Go to link</h5></a>
+        </div>
+        <div class=" col-5 container col-sm-12 col-md-6 col-lg-2 cir mb-3 rounded-5 py-2">
+          <h4 class="t10">Follow</h4>
+          <div class="col222 container-sm"></div>
+          <a class="a10" href="#"><h5 class="t10">Go to link</h5></a>
+        </div>
+        <div class=" col-5 container col-sm-12 col-md-6 col-lg-2 cir mb-3 rounded-5 py-2">
+          <h4 class="t10">Like</h4>
+          <div class="col333 container-sm"></div>
+          <a class="a10" href="#"><h5 class="t10">Go to link</h5></a>
+        </div>
+        <div class=" col-5 container col-sm-12 col-md-6 col-lg-2 cir mb-3 rounded-5 py-2">
+          <h4 class="t10">Watch</h4>
+          <div class="col444 container-sm"></div>
+          <a class="a10" href="#"><h5 class="t10">Go to link</h5></a>
+        </div>
+    
+    </div>
+  </div>
+  </div>
+  <!-- ////////////////////////////////////////////////////sec11//////////////////////////////////////////////////////////////////////////////////// -->
+  <div class="features7">
+      <div class="row row_last mt-5 ">
+        <div class="col-12  col-sm-12 col-md-6 col-lg-4 mt-3 container-sm">
+          <div class="collast text-center">
+            <div class="content2 ms-3"> 
+              <div class="lined3 mb-3"></div>
+              <a class="navbar-brand" href="#">  <img src="./images/50548-O6CHLZ.jpg" alt="Logo" style="width:90px;" class="rounded-pill mb-3"> <span class="p11 text-black fw-bold">Good Company</span></a>
+              <div class="lined3 mb-4"></div>
+              <p class="p11 text-light">Tel: 000-000-000</p>
+              <p class="p11 mt-2 text-light">Adress:EGYPT</p>
+              <p class="p11 text-light">Fax: 000-000-000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-3 container-sm">
+          <div class="collast text-center">
+            <div class="content2 ms-3 "> 
+              <div class="lined3 mb-3"></div>
+              <a class="navbar-brand" href="#">  <img src="./images/preview3.jpg" alt="Logo" style="width:90px;" class="rounded-pill mb-3"> <span class="p11 text-black fw-bold">Important Links</span></a>
+              <div class="lined3 mb-4"></div>
+             <a class="a11 text-decoration-none" href="#"><p class="p11">Visit Us</p></a> 
+             <a class="a11 text-decoration-none" href="#"><p class="p11">Take alook</p></a>
+             <a class="a11 text-decoration-none" href="#"><p class="p11">Your health is more important</p></a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-3 container-sm">
+          <div class="collast text-center">
+            <div class="content2 ms-3"> 
+              <div class="lined3 mb-3"></div>
+              <a class="navbar-brand" href="#">  <img src="./images/preview.jpg" alt="Logo" style="width:90px;" class="rounded-pill mb-3"> <span class="p11 text-black fw-bold">  Vision</span></a>
+              <div class="lined3 mb-4"></div>
+              <p class="p11 text-light">Tel: 000-000-000</p>
+              <p class="p11 mt-2 text-light">Adress:EGYPT</p>
+              <p class="p11 text-light">Fax: 000-000-000</p>
+            </div>
+          </div>
+        </div>
+       <div class="row row_last mt-2"> 
+        <div class="lined3"></div>
+        <div class="t_gradient4 text-center "> <h2 class="t8 py-2 text-uppercase">Copyright &copy; 2024 Menna Maged ELkassas, RELTY, ALL RIGHTS</h2></div>
+        <div class="lined3 mb-5"></div>
+       </div>
+     </div>   <!-- row_thanks -->
+ </div>   <!-- features -->
+  <script src="js/script.js"></script>
+</body>

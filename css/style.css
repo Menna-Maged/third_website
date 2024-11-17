@@ -1,0 +1,112 @@
+*{margin:0;  padding:0;   box-sizing:border-box;}
+:root {--orange-color: #ff6b15;}
+  .body{font-family:Arial, Helvetica, sans-serif;  perspective: 700px;}
+  .navbar{ background-color: rgba(77, 77, 77,0.7);  position:fixed;  z-index: 30; width: 100vw;}
+  .Rehlty{color: #ff6b15;}
+  .pic{height: 100vh; width: 100vw;}
+  .carousel-caption{ height: 30%; width: 50%; background-color:rgba(82, 81, 81, 0.5) ; }
+    /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    .modal-backdrop.fade.show{z-index: -1;}
+    .b3{background-color: #ff6b15;color: #fff;border-radius: 5px;transition: 0.5s;opacity: 0.8;}
+    .b3:hover{ opacity:1;transform: scale(1.1,1.1) ;}
+  .nav-link{font-size: large;color: #fff;padding-left: 20px !important; }
+  .nav-link:hover{color: #ff6b15;}
+.login{display: none;}
+.i1{font-size: 30px;}
+.carousel{position: relative;}
+.icons{position: fixed;z-index: 2;top:25%;right:0;}
+.link{width: 50px;height: 50px;background-color: #ff6b15; opacity: 0.8;border-radius: 6px ;margin-top: 20px;}
+.i11{font-size: 40px;padding-left: 5px;padding-top: 5px;}
+.link:hover{opacity: 1;background-color:  rgb(5, 83, 119);}
+/* /////////////////////////////////////////////////sec1////////////////////////////////////////////////////////////////////// */
+.div1{background-color: rgb(0, 106, 155)}
+/* ///////////////////////////////////////////////////sec2/////////////////////////////////////////////////////////////////////// */
+.t2{background-color:  #e2671e; height: 160px;} .sec2{text-align: center;}
+ /* ////////////////////////////////////////////////////sec3////////////////////////////////////////////////////////////////////// */
+.div3{background-color:#e9dbbc; height:350px}     .topic{color: #ff6b15;}
+.t3{background-color: #38507a; height: 80px;} .sec3{text-align: center;}       .form-check{float: left;}    .bold{color: #38507a;}
+.btns{background-color:#38507a; margin-left: 80%; width: 190px;}
+/* /////////////////////////////////////////////////////////sec4///////////////////////////////////////////////////////////////////// */
+.container4{width: 100vw;height: 50vh;position: relative;background-image: url(../images/world.jpg);background-size: cover;background-attachment: fixed;}
+.div4{width: 100vw;height: 100%;position: absolute;background-color: rgba(66, 66, 71, 0.4);}
+/* //////////////////////////////////////////////////////sec5////////////////////////////////////////////////////////////////////// */
+.col1{ background-image: url(../images/dubi.jpg);}
+.col2{ background-image: url(../images/AlUla.jpg);}
+.col3{ background-image: url(../images/paradise-island-landscape-summer-exotic.jpg);}
+.col4{ background-image: url(../images/london.jpg);}
+.col5{ background-image: url(../images/china.jpg);}
+.col6{ background-image: url(../images/paris.jpg);}
+.col7{ background-image: url(../images/Budapest.jpg);}
+.col8{ background-image: url(../images/Barcelona.jpg);}
+.col1, .col2 ,.col3 , .col4, .col5 , .col6 , .col7, .col8 {background-size: cover;position: relative;z-index: 1;overflow: hidden;height:350px; transition: 1s;}
+.overlay{background:#00000057;   position: absolute; width: 100%; height: 100%; z-index: -1;}
+.content{ transform: translateY(180px); transition: 1s;}
+.btn5{background-color: var(--orange-color); color:azure; font-weight: 600;} .btn:hover{background-color:#d85d16}
+.col1:hover .content{transform: translateY(120px);}  .col2:hover .content{transform: translateY(120px);}  .col3:hover .content{transform: translateY(120px);}
+.col4:hover .content{transform: translateY(120px);}  .col5:hover .content{transform: translateY(120px);}  .col6:hover .content{transform: translateY(120px);}
+.col7:hover .content{transform: translateY(120px);}  .col8:hover .content{transform: translateY(120px);}
+.col1::after , .col2::after , .col3::after , .col4::after , .col5::after , .col6::after , .col7::after , .col8::after{content: "";width: 100%;height: 0%;bottom: 0;right: 0;position:absolute; z-index: -2;background-color: rgb(58, 55, 55);opacity:0.8;transition: 2s;}
+.col1:hover::after , .col2:hover::after , .col3:hover::after , .col4:hover::after , .col5:hover::after , .col6:hover::after ,.col7:hover::after ,.col8:hover::after{opacity: 0;width: 100%;height: 100%;}
+/* ////////////////////////////////////////////////////////////sec6////////////////////////////////////////////////////////////////////////////////////// */
+.container6{width: 100vw;height: 50vh;position: relative;background-image: url(../images/close-up-compass-north-america-map.jpg);background-size: cover;background-attachment: fixed;}
+.div6{width: 100vw;height: 100%;position: absolute;background-color: rgba(66, 66, 71, 0.4);}
+/* //////////////////////////////////////////////////////sec7////////////////////////////////////////////////////////////////////// */
+.colA{ background-image: url(../images/front-view-smiley-man-taking-selfie.jpg);}
+.colB{ background-image: url(../images/person-indian-origin-having-fun.jpg);}
+.colC{ background-image: url(../images/medium-shot-smiley-man-posing.jpg);}
+.colA, .colB , .colC{background-size: cover;position: relative;z-index: 1;overflow: hidden;height:400px; transition: 1s;}
+.x{background:#00000098;}
+.pic1{background-image: url(../images/front-view-smiley-man-taking-selfie.jpg);}
+.pic2{background-image: url(../images/person-indian-origin-having-fun.jpg);}
+.pic3{background-image: url(../images/medium-shot-smiley-man-posing.jpg);}
+.pic1 , .pic2 , .pic3{background-size: cover;width: 100px; height: 100px;border-radius: 50px; margin-top: 155px;} .colA:hover{transform: scale(0.9 , 0.9);} .colB:hover{transform: scale(0.9 , 0.9);} .colC:hover{transform: scale(0.9 , 0.9);}
+.t7{font-size:24px;} .p7{margin-top: -20px;}
+/* //////////////////////////////////////////////////////sec8////////////////////////////////////////////////////////////////////// */
+.t_gradient1{background: -webkit-linear-gradient(top, #ffffff ,#d85d16);  -webkit-background-clip: text; color: transparent;}
+.t_gradient2{background: -webkit-linear-gradient(top, #057518 ,#fff132 ,#d81616);  -webkit-background-clip: text; color: transparent;}
+.t_gradient3{background: -webkit-linear-gradient(top, #057518 ,#fff132 ,#d81616);  -webkit-background-clip: text; color: transparent;}
+.t_gradient4{background: -webkit-linear-gradient(top, #ffffff , #0c166d);  -webkit-background-clip: text; color: transparent;}
+.photo1{ background-image: url(../images/futuristic-landscape-dubai.jpg);}
+.photo2{ background-image: url(../images/b16d5e2d-56a8-4b79-96f7-4f15f51ffa39.jpg);}
+.photo3{ background-image: url(../images/ddf.jpeg);}
+.photo4{ background-image: url(../images/Greece.jpg);}
+.photo1, .photo2, .photo3 , .photo4{background-size: cover;position: relative;z-index: 1;height:400px; transition: 1s;}
+.photo1, .photo3{clip-path: polygon(0 0, 100% 0%, 100% 100%, 12% 100%);}
+.photo2 , .photo4{clip-path: polygon(0 0, 100% 0%, 88% 100%, 0% 100%);}          .new{width: 80%; }
+.row813{display: grid ;  grid-template-columns: 3fr 1fr; box-shadow: 1px 1px 20px 1px #616161; background-color: #dee2de; border-radius: 10px; margin-top: 50px;  overflow: hidden;}
+.row824{display: grid ;  grid-template-columns:1fr 3fr ; box-shadow: 1px 1px 20px 1px #616161; background-color: #dee2de; border-radius: 10px; margin-top: 50px; overflow: hidden;}
+.line{width: 200px; height: 2px;  background-color: #38507a; transition: 1s;} .row813:hover .line{width: 350px;}  .row824:hover .line{width: 350px;}
+.row813:hover .photo1{transform: scale(1.1,1.1);}  .row813:hover .photo3{transform: scale(1.1,1.1);}
+.row824:hover .photo2{transform: scale(1.1,1.1);}  .row824:hover .photo4{transform: scale(1.1,1.1);}
+.space{height: 60px;}
+@media(max-width:567px){
+  .row813{grid-template-columns: 1fr; display: flex; flex-direction: column-reverse;}
+  .row824{grid-template-columns: 1fr;}
+  .photo1, .photo2, .photo3 , .photo4{ clip-path:none; top:0%;height:250px; !important} 
+  .space{height: 5px;}
+  .btn8{margin-bottom: 10px;} .t8{margin-top:0}
+  .p8{line-height: 18px;}}
+/* //////////////////////////////////////////////////////sec9///////////////////////////////////////////////////////////////////////////////// */
+.why_photo{ box-shadow: 1px 1px 20px 1px #616161;}
+.col11{ background-image: url(../images/portrait-flight-attendant-with-safety-belt.jpg);}
+.col22{ background-image: url(../images/wing-airplane-blue-sky-twilight-sunset.jpg);}
+.col33{ background-image: url(../images/more-comfort.jpg);}
+.col44{ background-image: url(../images/earn-exclusive-rewards.jpg);}
+.col11, .col22 ,.col33 , .col44{background-size: cover;position: relative;z-index: 1;overflow: hidden;height:200px; transition: 2s;margin-bottom: 50px;}
+.i9{padding-top: 60px; visibility:hidden ; font-size:30px;}  .content9{ width: 100%; height: 100%;transition: 1s;}
+.t9{ visibility: hidden; } .content9:hover .t9{visibility: visible; }  .content9:hover .i9{visibility: visible; }  
+.t99{color: #38507a;} .gg{color:#e2671e;}
+.col11::before , .col22::before , .col33::before , .col44::before{content: "";width: 0%;height: 0%;top: 0;left: 0;position:absolute;z-index: -2;background-color: rgb(58, 55, 55);opacity:0.8;transition: 2s;}
+.col11::after , .col22::after , .col33::after , .col44::after{content: "";width: 0;height: 0%;bottom: 0;right: 0;position:absolute;z-index: -2;background-color: rgb(58, 55, 55);opacity:0.8;transition: 2s;}
+.col11:hover::after , .col22:hover::after , .col33:hover::after , .col44:hover::after{opacity: 0.2;width: 100%;height: 100%;}
+.col11:hover::before , .col22:hover::before , .col33:hover::before , .col44:hover::before{opacity: 0.2;width: 100%;height: 100%;}
+/* //////////////////////////////////////////////////////////sec10//////////////////////////////////////////////////////////////////////////////// */
+.col111{ background-image: url(../images/linkedin.png);}
+.col222{ background-image: url(../images/10464266.png);}
+.col333{ background-image: url(../images/10464408.png);}
+.col444{ background-image: url(../images/tiktok.png);}
+.col111, .col222 ,.col333 , .col444{background-size: cover;position: relative;z-index: 1;height:140px; width: 140px; border-radius: 70px;}
+.t10{color: #38507a;}   .a10{text-decoration: none;}     .cir{background-color: #dee2de;} .cir:hover{background-color:#9b9b9bbd}
+/* //////////////////////////////////////////////////////////sec11//////////////////////////////////////////////////////////////////////////////// */
+.lined3{height: 2px; width: 100%; background-color: rgb(255, 255, 255);}
+.row_last{background-color: #d85d16;} .p11{color: black;} .p11:hover{color:whitesmoke; !important}
