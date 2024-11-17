@@ -14,7 +14,7 @@
 .login{display: none;}
 .i1{font-size: 30px;}
 .carousel{position: relative;}
-.icons{position: fixed;z-index: 2;top:25%;right:0;}
+.icons{position: fixed;z-index: 20;top:25%;right:0;}
 .link{width: 50px;height: 50px;background-color: #ff6b15; opacity: 0.8;border-radius: 6px ;margin-top: 20px;}
 .i11{font-size: 40px;padding-left: 5px;padding-top: 5px;}
 .link:hover{opacity: 1;background-color:  rgb(5, 83, 119);}
