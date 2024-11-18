@@ -32,7 +32,7 @@
 /* //////////////////////////////////////////////////////sec5////////////////////////////////////////////////////////////////////// */
 .col1{ background-image: url(../images/dubi.jpg);}
 .col2{ background-image: url(../images/AlUla.jpg);}
-.col3{ background-image: url(../images/paradise-island-landscape-summer-exotic.jpg);}
+.col3{ background-image: url(../images/maldives.jpg);}
 .col4{ background-image: url(../images/london.jpg);}
 .col5{ background-image: url(../images/china.jpg);}
 .col6{ background-image: url(../images/paris.jpg);}
@@ -66,9 +66,9 @@
 .t_gradient2{background: -webkit-linear-gradient(top, #057518 ,#fff132 ,#d81616);  -webkit-background-clip: text; color: transparent;}
 .t_gradient3{background: -webkit-linear-gradient(top, #057518 ,#fff132 ,#d81616);  -webkit-background-clip: text; color: transparent;}
 .t_gradient4{background: -webkit-linear-gradient(top, #ffffff , #0c166d);  -webkit-background-clip: text; color: transparent;}
-.photo1{ background-image: url(../images/futuristic-landscape-dubai.jpg);}
+.photo1{ background-image: url(../images/first.jpg);}
 .photo2{ background-image: url(../images/b16d5e2d-56a8-4b79-96f7-4f15f51ffa39.jpg);}
-.photo3{ background-image: url(../images/ddf.jpeg);}
+.photo3{ background-image: url(../images/ddf.jpg);}
 .photo4{ background-image: url(../images/Greece.jpg);}
 .photo1, .photo2, .photo3 , .photo4{background-size: cover;position: relative;z-index: 1;height:400px; transition: 1s;}
 .photo1, .photo3{clip-path: polygon(0 0, 100% 0%, 100% 100%, 12% 100%);}
