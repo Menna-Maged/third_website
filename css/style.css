@@ -59,7 +59,7 @@
 .pic1{background-image: url(../images/front-view-smiley-man-taking-selfie.jpg);}
 .pic2{background-image: url(../images/person-indian-origin-having-fun.jpg);}
 .pic3{background-image: url(../images/medium-shot-smiley-man-posing.jpg);}
-.pic1 , .pic2 , .pic3{background-size: cover;width: 100px; height: 100px;border-radius: 50px; margin-top: 155px;} .colA:hover{transform: scale(0.9 , 0.9);} .colB:hover{transform: scale(0.9 , 0.9);} .colC:hover{transform: scale(0.9 , 0.9);}
+.pic1 , .pic2 , .pic3{background-size: cover;width: 100px; height: 100px;border-radius: 50px; margin-top: 150px;} .colA:hover{transform: scale(0.9 , 0.9);} .colB:hover{transform: scale(0.9 , 0.9);} .colC:hover{transform: scale(0.9 , 0.9);}
 .t7{font-size:24px;} .p7{margin-top: -20px;}
 /* //////////////////////////////////////////////////////sec8////////////////////////////////////////////////////////////////////// */
 .t_gradient1{background: -webkit-linear-gradient(top, #ffffff ,#d85d16);  -webkit-background-clip: text; color: transparent;}
